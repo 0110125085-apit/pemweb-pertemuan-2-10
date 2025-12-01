@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kalkulator sederhana</title>
+</head>
+
+<body>
+  <script>
+    
+    function tambah() {
+  let a = Number(document.getElementById("angka1").value);
+  let b = Number(document.getElementById("angka2").value);
+  document.getElementById("hasil").innerHTML = "Hasil: " + (a + b);
+}
+function kurang() {
+let a = Number(document.getElementById("angka1").value);
+  let b = Number(document.getElementById("angka2").value);
+  document.getElementById("hasil").innerHTML = "Hasil: " + (a - b);
+}
+function kali() {
+let a = Number(document.getElementById("angka1").value);
+  let b = Number(document.getElementById("angka2").value);
+  document.getElementById("hasil").innerHTML = "Hasil: " + (a * b);
+}
+function bagi() {
+let a = Number(document.getElementById("angka1").value);
+let b = Number(document.getElementById("angka2").value);
+document.getElementById("hasil").innerHTML = "Hasil: " + (a / b);
+}
+
+
+  </script>
+  
+  <h2>Kalkulator Sederhana</h2>
+
+<input id="angka1" type="number" placeholder="Angka 1">
+<input id="angka2" type="number" placeholder="Angka 2">
+
+<button onclick="tambah()">Tambah</button>
+<button onclick="kurang()">Kurang</button>
+<button onclick="kali()">kali</button>
+<button onclick="bagi()">bagi</button>
+
+<p id="hasil"></p>
+</body>
+
+</html>

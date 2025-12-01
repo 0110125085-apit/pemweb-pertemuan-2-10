@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Flexbox</title>
+<style>
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 200px;
+        background: #eee;
+    }
+
+    .item {
+        background: skyblue;
+        padding: 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .item:hover {
+        background: steelblue;
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        background: #333;
+        padding: 10px;
+    }
+
+    .nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .nav a:hover {
+        color: gold;
+    }
+</style>
+</head>
+<body>
+
+<h2>Contoh Flexbox</h2>
+<div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+</div>
+
+<div class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</div>
+
+</body>
+</html>

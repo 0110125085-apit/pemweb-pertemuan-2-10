@@ -1,0 +1,43 @@
+p{
+      color:red;
+      font-size:16px;
+      font-weight:bold;
+    }
+    body{background-color:lightgrey
+  ;}
+  h1,h2{
+    color: blue;
+    text-align: center;
+  }  
+    .tulis1 {
+      color: purple;
+      font-size: 20px;
+      font-family: Verdana;
+      text-align: center;
+  
+  }
+  
+  #tulis2 {
+      color: greenyellow;
+      font-size: 20px;
+      font-family: italic;
+      text-align: center;
+  }
+  a{text-decoration: none;}
+  a:link {color: blue;}
+  a:visited {color: purple;}
+  a:hover {color: red;}
+  a:active {color: green;}
+  
+  p::first-line {
+font-weight: bold;
+color: orange;
+}
+p::first-letter {
+font-size: 2em;
+}
+body{
+  /*background-color: lightgrey;*/
+  background:linear-gradient( purple, blue
+  );
+}
