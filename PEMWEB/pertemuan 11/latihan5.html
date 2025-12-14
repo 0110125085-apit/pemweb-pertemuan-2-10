@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Effect</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+<body>
+   <p id="box">ini adalah paragraf efek jQuery</p>
+
+    <button id="fadeOut">Fade Out</button>
+    <button id="fadeIn">Fade In</button>
+    <button id="slideUp">Slide Up</button>
+    <button id="slideDown">Slide Down</button>
+
+    <script>
+        $(function() {
+            $("#fadeOut").click(() => $("#box").fadeOut());
+            $("#fadeIn").click(() => $("#box").fadeIn());
+            $("#slideUp").click(() => $("#box").slideUp());
+            $("#slideDown").click(() => $("#box").slideDown());
+        });
+    </script>
+
+
+
+
+</body>
+</html>
